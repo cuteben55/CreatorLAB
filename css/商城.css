@@ -703,3 +703,10 @@ h1.title_com{
     left: 705px;
     bottom: 0;
    }
+   .logo3{
+    background-image: url(../首頁/asset/images/Logo/logo3.svg);
+    background-repeat: no-repeat;
+    width: 264px;
+    height: 50px;
+    margin: 0 auto;
+  }

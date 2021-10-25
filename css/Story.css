@@ -6,7 +6,7 @@ body {
 div.BG{
   margin: 0 auto;
   width: 1440px;
-  height: 5300px;
+  height: 4010px;
   background: rgba(0, 88, 157, 1);
 /* border: 10px solid seagreen; */
 }
@@ -27,7 +27,7 @@ div.frame{
   position: relative;
   z-index: 2;
   max-width: 1440px;
-  height: 5500px;
+  height: 4010px;
   /* border: 20px solid red; */
 
 }
@@ -157,7 +157,7 @@ top: 50px;
 /* 間隔20px */
 /* 麵師傅 */
 section.ramen{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: absolute;
     top: 1082px;
@@ -182,7 +182,7 @@ section.ramen{
     }
   
     div.ramen_block{
-      border:1px solid black;
+      /* border:1px solid black; */
     
       height:642px;
       width: 1440px;
@@ -192,7 +192,7 @@ section.ramen{
       display: flex;
      }
   div.aside2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 32px;
     color: white;
     width: 530px;
@@ -202,7 +202,7 @@ section.ramen{
 
   }
   div.r_right{
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     flex-grow: 1;
     width: 878px;
     height: 642px;
@@ -240,7 +240,7 @@ section.ramen{
 
   /* FUSE MAN雷電人 */
   section.FUSEMAN{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: absolute;
     top: 1744px;
@@ -265,7 +265,7 @@ section.ramen{
     }
   
     div.FUSEMAN_block{
-      border:1px solid black;
+      /* border:1px solid black; */
     
       height:642px;
       width: 1440px;
@@ -275,7 +275,7 @@ section.ramen{
       display: flex;
      }
   div.aside3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 32px;
     color: white;
     width: 530px;
@@ -285,7 +285,7 @@ section.ramen{
 
   }
   div.F_right{
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     flex-grow: 1;
     width: 878px;
     height: 642px;
@@ -323,7 +323,7 @@ section.ramen{
 
   /* Sleepy MAN沈睡鳥人 */
   section.SleepyMAN{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: absolute;
     top: 2406px;
@@ -348,7 +348,7 @@ section.ramen{
     }
   
     div.SleepyMAN_block{
-      border:1px solid black;
+      /* border:1px solid black; */
     
       height:642px;
       width: 1440px;
@@ -358,7 +358,7 @@ section.ramen{
       display: flex;
      }
   div.aside4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 32px;
     color: white;
     width: 530px;
@@ -368,7 +368,7 @@ section.ramen{
 
   }
   div.S_right{
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     flex-grow: 1;
     width: 878px;
     height: 642px;
@@ -406,7 +406,7 @@ section.ramen{
 
   /* SharkMAN鯊魚人 */
   section.SharkMAN{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: absolute;
     top: 3068px;
@@ -431,7 +431,7 @@ section.ramen{
     }
   
     div.SharkMAN_block{
-      border:1px solid black;
+      /* border:1px solid black; */
     
       height:642px;
       width: 1440px;
@@ -441,7 +441,7 @@ section.ramen{
       display: flex;
      }
   div.aside5{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 32px;
     color: white;
     width: 530px;
@@ -451,7 +451,7 @@ section.ramen{
 
   }
   div.ss_right{
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     flex-grow: 1;
     width: 878px;
     height: 642px;
