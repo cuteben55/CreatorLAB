@@ -155,7 +155,7 @@ top: 50px;
 }
 
 /* 間隔20px */
-/* 拉麵人 */
+/* 麵師傅 */
 section.ramen{
     border: 1px solid red;
     margin: 0 auto;
@@ -207,7 +207,7 @@ section.ramen{
     width: 878px;
     height: 642px;
     color: white;
-    background-color: #BDCFFE;
+    background-color:#CB412B;
 
   }
   div.r_right > p{
@@ -225,11 +225,11 @@ section.ramen{
   display: flex;
   align-items: center;
   
-  color: #000000;
+  color:white;
   
   }
   .ramen_logo{
-  background-image: url("../Story/Creator2.svg");
+  background-image: url("../Story/麵師傅.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 364px;
@@ -239,16 +239,16 @@ section.ramen{
   }
 
   /* FUSE MAN雷電人 */
-  section.ramen{
+  section.FUSEMAN{
     border: 1px solid red;
     margin: 0 auto;
     position: absolute;
-    top: 1082px;
+    top: 1744px;
     z-index: 5;
     width: 1440px;
     height: 642px;
   }
-  h1.name2 {
+  h1.name3 {
   position:absolute;
   left: 140px;
   font-style: normal;
@@ -257,14 +257,14 @@ section.ramen{
     line-height: 92px;
     display: flex;
     align-items: center;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px black;
   
     text-align: center;
-    color:red;
+    color:#D7E04F;
   
     }
   
-    div.ramen_block{
+    div.FUSEMAN_block{
       border:1px solid black;
     
       height:642px;
@@ -274,7 +274,7 @@ section.ramen{
       left: 0px;
       display: flex;
      }
-  div.aside2{
+  div.aside3{
     border: 1px solid red;
     margin-right: 32px;
     color: white;
@@ -284,16 +284,16 @@ section.ramen{
     background-color: #BDCFFE;
 
   }
-  div.r_right{
+  div.F_right{
     border: 1px solid blue; 
     flex-grow: 1;
     width: 878px;
     height: 642px;
     color: white;
-    background-color: #BDCFFE;
+    background-color: #D7E04F;
 
   }
-  div.r_right > p{
+  div.F_right > p{
   position: absolute;
   width: 464.14px;
   height: 294px;
@@ -311,8 +311,8 @@ section.ramen{
   color: #000000;
   
   }
-  .ramen_logo{
-  background-image: url("../Story/Creator2.svg");
+  .FUSEMAN_logo{
+  background-image: url("../Story/雷電人.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 364px;
@@ -321,17 +321,17 @@ section.ramen{
   top: 50px;
   }
 
-  /* TUNDRA MAN沈睡鳥人 */
-  section.ramen{
+  /* Sleepy MAN沈睡鳥人 */
+  section.SleepyMAN{
     border: 1px solid red;
     margin: 0 auto;
     position: absolute;
-    top: 1082px;
+    top: 2406px;
     z-index: 5;
     width: 1440px;
     height: 642px;
   }
-  h1.name2 {
+  h1.name4 {
   position:absolute;
   left: 140px;
   font-style: normal;
@@ -343,11 +343,11 @@ section.ramen{
     -webkit-text-stroke: 2px white;
   
     text-align: center;
-    color:red;
+    color:#8276C0;
   
     }
   
-    div.ramen_block{
+    div.SleepyMAN_block{
       border:1px solid black;
     
       height:642px;
@@ -357,7 +357,7 @@ section.ramen{
       left: 0px;
       display: flex;
      }
-  div.aside2{
+  div.aside4{
     border: 1px solid red;
     margin-right: 32px;
     color: white;
@@ -367,16 +367,16 @@ section.ramen{
     background-color: #BDCFFE;
 
   }
-  div.r_right{
+  div.S_right{
     border: 1px solid blue; 
     flex-grow: 1;
     width: 878px;
     height: 642px;
     color: white;
-    background-color: #BDCFFE;
+    background-color:#8276C0;
 
   }
-  div.r_right > p{
+  div.S_right > p{
   position: absolute;
   width: 464.14px;
   height: 294px;
@@ -391,11 +391,11 @@ section.ramen{
   display: flex;
   align-items: center;
   
-  color: #000000;
+  color: white;
   
   }
-  .ramen_logo{
-  background-image: url("../Story/Creator2.svg");
+  .SleepyMAN_logo{
+  background-image: url("../Story/沈睡鳥人.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 364px;
@@ -403,17 +403,18 @@ section.ramen{
   left: 1063px;
   top: 50px;
   }
-  /* TUNDRA MAN鯊魚人 */
-  section.ramen{
+
+  /* SharkMAN鯊魚人 */
+  section.SharkMAN{
     border: 1px solid red;
     margin: 0 auto;
     position: absolute;
-    top: 1082px;
+    top: 3068px;
     z-index: 5;
     width: 1440px;
     height: 642px;
   }
-  h1.name2 {
+  h1.name5 {
   position:absolute;
   left: 140px;
   font-style: normal;
@@ -422,14 +423,14 @@ section.ramen{
     line-height: 92px;
     display: flex;
     align-items: center;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px black;
   
     text-align: center;
-    color:red;
+    color:#ABBFFF;
   
     }
   
-    div.ramen_block{
+    div.SharkMAN_block{
       border:1px solid black;
     
       height:642px;
@@ -439,7 +440,7 @@ section.ramen{
       left: 0px;
       display: flex;
      }
-  div.aside2{
+  div.aside5{
     border: 1px solid red;
     margin-right: 32px;
     color: white;
@@ -449,7 +450,7 @@ section.ramen{
     background-color: #BDCFFE;
 
   }
-  div.r_right{
+  div.ss_right{
     border: 1px solid blue; 
     flex-grow: 1;
     width: 878px;
@@ -458,7 +459,7 @@ section.ramen{
     background-color: #BDCFFE;
 
   }
-  div.r_right > p{
+  div.ss_right > p{
   position: absolute;
   width: 464.14px;
   height: 294px;
@@ -476,8 +477,8 @@ section.ramen{
   color: #000000;
   
   }
-  .ramen_logo{
-  background-image: url("../Story/Creator2.svg");
+  .SharkMAN_logo{
+  background-image: url("../Story/鯊魚人.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 364px;
