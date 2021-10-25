@@ -1,0 +1,42 @@
+header{
+ display: flex;
+ justify-content: space-between;
+}
+.logo{
+  align-self: flex-end;
+}
+nav{
+ display: flex;
+}
+.navblock{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+nav{
+ position: relative;
+}
+
+.navblock{
+ position: relative;
+}
+.navblock:hover{
+ top: -8px;
+}
+
+
+header{
+  border: 1px solid red;
+  width: 1440px;
+  margin: 0 auto;
+  background-color: red;
+}
+ul.nav_block{
+  border: 1px solid red;
+  display: inline-flex;
+
+}
+ul.nav_block > li{
+  list-style: none;
+
+}
