@@ -14,7 +14,7 @@
 div.BG{
   margin: 0 auto;
   width: 1440px;
-  height: 3600px;
+  height: 3200px;
   background: rgba(0, 88, 157, 1);
 /* border: 10px solid seagreen; */
 }
@@ -42,7 +42,7 @@ div.frame{
   position: relative;
   z-index: 2;
   max-width: 1440px;
-  height: 3600px;
+  height: 3200px;
   /* border: 20px solid red; */
 
 }
@@ -54,12 +54,11 @@ div.frame{
 
 .main_container input:hover {
   position: absolute;
-  height: 10px;
-  left:10px;
-  right: 10px;
-  bottom: 0;
+  height: 50px;
+
+
   background-color: #fff;
-  transition: 5s;
+  transition: 2s;
 }
 /* news */
 section.play_banner{
@@ -245,69 +244,76 @@ div.aside{
   background: #15047C;
   z-index: 5;
 }
-
 /* speedrun */
 section.news1{
-  border: 10px solid red;
+  border: 1px solid red;
   margin: 0 auto;
   width: 1440px;
-  height: 330px;
+  height: 480px;
   
   position:absolute;
   top: 1370px;
+  background-color: #E6FEE4;
 }
 div.icon_1{
-  background-image: url("../News/資產\ 11.png");
+  background-image: url("../News/speed.png");
   position: absolute;
-  background-size: cover;
+  left: 110px;
+  top: 150px;
+
+  background-size: contain;
   width: 422px;
   height: 225px;
   background-repeat: no-repeat;
 
   border-radius: 50px;
-  left: 100px;
 }
 h1.title_des{
-  position: absolute;
-  left: 100px;
-  top: 20px;
-  padding: 0;
-  margin: 0;
+position: absolute;
+left:50%;
+transform: translatex(-50%);
   
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 93px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+padding: 20px;
+margin: 0;
+font-family: Noto Sans;
+font-style:normal;
+font-weight:bolder;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-align: center;
 
-  color: white;
+  color:#24FEFF;
+  text-shadow: 0px 0px 5px black;
   }
  .des1>p{
     position: absolute;
-    left: 50px;
-    top: 100px;
+    right: 130px;
+    top: 120px;
+    width: 717px;
+    height: 348px;
     line-height: 30px;
-    color: white;
+    color: black;
     font-size: 18px;
     padding: 20px;
   }
   .des1>p::before{
   content: "abcd";
-   color: #00589D;
+  color: #E6FEE4;   
 
   }
   .line{
     background-image: url(../商城/asset/Line\ 6.svg);
     background-color: #15047C;
     background-repeat: no-repeat;
-    position: absolute;
-    width: 685px;
+    width: 1200px;
     height: 0px;
-    left: 80px;
-    top: 110px;
+    position: absolute;
+    left:50%;
+    transform: translatex(-50%);
+    
+    top: 80px;
 
     border: 5px solid #15047C;
   }
@@ -342,52 +348,75 @@ h1.title_des{
     border: 10px solid red;
     margin: 0 auto;
     width: 1440px;
-    height: 330px;
+    height: 480px;
    position:absolute;
-   top:1800px;
+   top: 1850px;
+   background-color:   #BDCFFE;
+   
  }
 
+ div.icon_2{
+  background-image: url("../News/shark.png");
+  position: absolute;
+  left: 110px;
+  top: 150px;
 
+  background-size: contain;
+  width: 422px;
+  height: 225px;
+  background-repeat: no-repeat;
+
+  border-radius: 50px;
+}
  h1.title_des2 {
   position: absolute;
-  left: 100px;
-  padding: 0;
+  left:50%;
+  transform: translatex(-50%);
+    
+  padding: 20px;
   margin: 0;
-  
   font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
+  font-style:normal;
+  font-weight:bolder;
   font-size: 36px;
-  line-height: 93px;
+  line-height: 49px;
+  display: flex;
   align-items: center;
   text-align: center;
 
-  color: white;
+  color:#24FEFF;
+  text-shadow: 0px 0px 5px black;
+
   }
   .line2{
     background-image: url(../商城/asset/Line\ 6.svg);
     background-color: #15047C;
     background-repeat: no-repeat;
-    position: absolute;
-    width: 685px;
+    width: 1200px;
     height: 0px;
-    left: 80px;
-    top: 90px;
+    position: absolute;
+    left:50%;
+    transform: translatex(-50%);
+    
+    top: 80px;
+
     border: 5px solid #15047C;
   }
   
 .des2>p{
-    position: absolute;
-    left: 50px;
-    top: 80px;
-    line-height: 30px;
-    color: white;
-    font-size: 18px;
-    padding: 20px;
+  position: absolute;
+  right: 130px;
+  top: 120px;
+  width: 717px;
+  height: 348px;
+  line-height: 30px;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
   }
   .des2>p::before{
   content: "abcd";
-   color: #00589D;
+   color: #BDCFFE;
 
   }
 
@@ -402,6 +431,8 @@ h1.title_des{
    height: 67px;
    padding: 0;
    margin: 0;
+ 
+
  
    
    /* 文字設定 */
@@ -421,52 +452,64 @@ section.news3{
   border: 10px solid red;
   margin: 0 auto;
   width: 1440px;
-  height: 330px;
+  height: 480px;
  position:absolute;
- top:2230px;
+ top: 2330px;
+ background-color:   #E6FEE4;
+
 }
-
-
 h1.title_des3{
-position: absolute;
-left: 100px;
-padding: 0;
-margin: 0;
+  position: absolute;
+  left:50%;
+  transform: translatex(-50%);
+    
+  padding: 20px;
+  margin: 0;
+  font-family: Noto Sans;
+  font-style:normal;
+  font-weight:bolder;
+  font-size: 36px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-font-family: Noto Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 93px;
-align-items: center;
-text-align: center;
-
-color: white;
+  color:#24FEFF;
+  text-shadow: 0px 0px 5px black;
 }
 .line3{
   background-image: url(../商城/asset/Line\ 6.svg);
-  background-color: #15047C;
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 685px;
-  height: 0px;
-  left: 80px;
-  top: 90px;
-  border: 5px solid #15047C;
+    background-color: #15047C;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 0px;
+    position: absolute;
+    left:50%;
+    transform: translatex(-50%);
+    
+    top: 80px;
+
+    border: 5px solid #15047C;
 }
 
 .des3>p{
   position: absolute;
-  left: 50px;
-  top: 80px;
+  right: 130px;
+  top: 120px;
+  width: 717px;
+  height: 348px;
   line-height: 30px;
-  color: white;
+  color: black;
   font-size: 18px;
   padding: 20px;
+  }
+  .des2>p::before{
+  content: "abcd";
+   color: #BDCFFE;
 }
 .des3>p::before{
 content: "abcd";
- color: #00589D;
+ color:#E6FEE4;;
 
 }
 
@@ -494,14 +537,27 @@ content: "abcd";
  -webkit-text-stroke: 2px black;
  
  }
+ div.icon_3{
+  background-image: url("../News/stage.png");
+  position: absolute;
+  left: 110px;
+  top: 150px;
 
+  background-size: contain;
+  width: 422px;
+  height: 225px;
+  background-repeat: no-repeat;
+
+  border-radius: 50px;
+}
 
 
   
   h1.ifo{
     position: absolute;
     left: 640px;
-    margin: 0 auto;
+    bottom: 0;
+    margin: 30px ;
     font-style: normal;
     font-weight: bold;
     font-size: 68px;
@@ -514,6 +570,57 @@ content: "abcd";
     color: #24FEFF;
     
     }
+
+    div.pages{
+      display: inline-block;
+      position: absolute;
+      left: 480px;
+      bottom: 250px;
+      
+      }
+    div.pages > ul.pagination{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+      
+    }
+    div.pages > ul.pagination > li{
+      display: inline-block;
+    }
+    div.pages  > ul.pagination > li > a{
+      display: inline-block;
+      text-decoration: none;
+      width: 50px;
+      height: 50px;
+      border-right: 0;        
+      
+      text-align: center;
+      padding: 10px 10px;
+      font-size: 1rem;
+      color:white;
+      background-color:  #15047C;
+    }
+    
+   
+    div.pages> ul.pagination > li:last-child > a{
+      border-radius: 0 5px 5px 0;
+    }
+    div.pages > ul.pagination > li:first-child > a{
+      display: inline-block;
+      border-radius: 5px 0 0 5px;
+    }
+    
+    div.pages > ul.pagination > li > a.-on{
+      background-color: #e9ecef;
+      color: #0056b3;
+    }
+    
+    div.pages > ul.pagination > li > a:hover{
+      background-color: #e9ecef;
+      color: #0056b3;
+    }
+
   footer{
     background-color: black;
     color: white;
@@ -528,7 +635,7 @@ content: "abcd";
     /* border: 10px solid purple; */
     background: #E6FEE4;
     width:1440px;
-    height: 300px;
+    height: 150px;
     margin: 0 auto;
     position: absolute;
     bottom:0;
@@ -540,8 +647,9 @@ content: "abcd";
     position: absolute;
     width: 600px;
     height: 72px;
-    left: 705px;
+    right: 0;
     bottom: 0;
+    margin: 35px;
    }
    .logo3{
     background-image: url(../首頁/asset/images/Logo/logo3.svg);
