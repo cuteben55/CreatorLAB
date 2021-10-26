@@ -27,7 +27,7 @@ div.frame{
   position: relative;
   z-index: 2;
   max-width: 1440px;
-  height: 5500px;
+  height: 5300px;
   /* border: 20px solid red; */
 
 }
@@ -312,7 +312,7 @@ h1.title_story {
   
  }
  section.about{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0 auto;
 
   width: 1440px;

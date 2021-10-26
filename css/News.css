@@ -62,7 +62,7 @@ div.frame{
 }
 /* news */
 section.play_banner{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   position: absolute;
   /* background-color: black; */
@@ -235,7 +235,7 @@ h1.ifo_bar >a{
 
   /* Scroll bar*/
 div.aside{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: absolute;
   right: 0;
   top: 210px;
@@ -246,7 +246,7 @@ div.aside{
 }
 /* speedrun */
 section.news1{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   width: 1440px;
   height: 480px;
@@ -345,7 +345,7 @@ text-align: center;
 
 /* 鯊魚人 */
   section.news2{
-    border: 10px solid red;
+    /* border: 10px solid red; */
     margin: 0 auto;
     width: 1440px;
     height: 480px;
@@ -449,7 +449,7 @@ text-align: center;
    
 /* 場景更新 */
 section.news3{
-  border: 10px solid red;
+  /* border: 10px solid red; */
   margin: 0 auto;
   width: 1440px;
   height: 480px;

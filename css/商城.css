@@ -63,7 +63,7 @@ div.frame{
 }
 /* news */
 section.play_banner{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   position: absolute;
   /* background-color: black; */
@@ -235,7 +235,7 @@ h1.ifo_bar >a{
 
   /* 側邊欄*/
 div.aside{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: absolute;
   left: 1109px;
   top: 215px;
@@ -357,7 +357,7 @@ color: #FFFFFF;
 }
 /* 關於此遊戲 */
 section.describe{
-  border: 10px solid red;
+  /* border: 10px solid red; */
   margin: 0 auto;
   width: 1440px;
   height: 590px;
@@ -386,7 +386,7 @@ h1.title_des {
   }
   .describe p{
     position: absolute;
-    left: 50px;
+    left: 80px;
     top: 110px;
     line-height: 30px;
     color: white;
@@ -408,12 +408,12 @@ h1.title_des {
     left: 80px;
     top: 110px;
 
-    border: 5px solid #15047C;
+    border: 2px solid #15047C;
   }
 
     /* 普遍級 */
   div.aside2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     right: 20px;
     top: 20px;
@@ -468,17 +468,17 @@ h1.title_des {
     border: 5px solid #15047C;
   }
   div.des2{
-    border:10px solid black;
+    /* border:10px solid black; */
   
     height:500px;
     width: 1000px;
     position: absolute;
     top:450px;
-    left: 50px;
+    left: 90px;
     display: flex;
    }
 div.des_left{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-right: 30px;
   color: white;
   width: 500px;
@@ -487,7 +487,7 @@ div.des_left{
 
 }
 div.des_right{
-  border: 1px solid blue; 
+  /* border: 1px solid blue;  */
   flex-grow: 1;
   width: 900px;
   height: 500px;
@@ -496,7 +496,7 @@ div.des_right{
 }
 /* 成就 */
 div.aside3{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: absolute;
   right: 20px;
   top: 250px;
@@ -549,7 +549,7 @@ div.icon_r{
 }
 /* 語言 */
 div.aside4{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: absolute;
   right: 20px;
   top: 470px;
@@ -577,14 +577,14 @@ table.lang td{
 }
 .aside4 > a{
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   color: white;
   padding-left: 20px;
 
 }
 
  section.comment{
-  border: 10px solid black;
+  /* border: 10px solid black; */
   margin: 0 auto;
 
   width: 1440px;
