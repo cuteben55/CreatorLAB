@@ -8,6 +8,8 @@ body{
 
 
 }
+
+
 ul a {
   display: block;
   text-decoration: none;
@@ -52,7 +54,8 @@ z-index: 3;
   position:relative;
   width: 905px;
   height: 78px;
-  left:120px;
+  left:100px;
+  
 
 }
 
@@ -101,3 +104,39 @@ z-index: 3;
   left: 0;
   right: 0;
 }
+
+div.submenu{
+  padding: 5px 10px;
+  color: white;
+  
+  /* 第一步 */
+  position: relative;
+}
+ul.submenu-item{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+  
+  /* 第二步 */
+  display: none;
+  position: absolute;
+  right: -20px;
+  top: 55px;
+  z-index: 99;
+ 
+} 
+
+ul.submenu-item> li
+{
+  list-style: none;
+  width: 150px;
+  
+}
+div.submenu:hover ul.submenu-item{
+  display: block;
+
+
+}
+
+
