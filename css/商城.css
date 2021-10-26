@@ -8,6 +8,9 @@
     font-family: 'Noto Sans TC', sans-serif;
 
 }
+.nav_list li:nth-child(4){
+  background-color: #b02914;
+}
 div.BG{
   margin: 0 auto;
   width: 1440px;
