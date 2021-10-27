@@ -11,7 +11,7 @@ div.BG{
 /* border: 10px solid seagreen; */
 }
 div.frame{
-  background-image: url("../首頁/asset/images/g-nav-frame-center.png");
+  background-image: url("../Home/asset/images/g-nav-frame-center.png");
   background-repeat: no-repeat;
   width:1440px;
   height: 55px;
@@ -33,7 +33,7 @@ div.frame{
 }
 /* banner */
 .banner_img{
-  background-image: url("../首頁/asset/BG/1255561.jpg");
+  background-image: url("../Home/asset/BG/1255561.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
   top: 0;
@@ -44,7 +44,7 @@ div.frame{
   top:170px;
 }
 .banner_logo{
-  background-image: url("../首頁/asset/BG/Banner2.svg");
+  background-image: url("../Home/asset/BG/Banner2.svg");
   background-repeat: no-repeat;
   margin: 0 auto;
   z-index: 1;
@@ -129,7 +129,7 @@ h1.title_news {
   
   }
 .bar{
-  background-image: url("../首頁/asset/images/Bar1.png");
+  background-image: url("../Home/asset/images/Bar1.png");
   background-repeat: no-repeat;
   position: absolute;
   width:1440px;
@@ -138,7 +138,7 @@ h1.title_news {
 
 }
 .bar1{
-  background-image: url("../首頁/asset/images/Bar1.png");
+  background-image: url("../Home/asset/images/Bar1.png");
   background-repeat: no-repeat;
   width:1440px;
   height: 55px;
@@ -148,7 +148,7 @@ h1.title_news {
 
 }
 div.event1{
-  background-image: url("../首頁/asset/news/全新場景.png");
+  background-image: url("../Home/asset/news/全新場景.png");
   background-repeat: no-repeat;
   position: absolute;
   left: 11.94%;
@@ -163,7 +163,7 @@ div.event1{
 
 }
 div.event2{
-  background-image: url("../首頁/asset/news/更新內容.svg");
+  background-image: url("../Home/asset/news/更新內容.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 512.56px;
@@ -179,7 +179,7 @@ div.event2{
 
 }
 div.event3{
-  background-image: url("../首頁/asset/news/SpeedRun.svg");
+  background-image: url("../Home/asset/news/SpeedRun.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 512.56px;
@@ -195,7 +195,7 @@ div.event3{
 
 }
 div.event4{
-  background-image: url("../首頁/asset/news/鯊魚人.png");
+  background-image: url("../Home/asset/news/鯊魚人.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 512.56px;
@@ -227,7 +227,7 @@ p{
   color: white;
 }
 .bar2{
-  background-image: url("../首頁/asset/images/Bar1.png");
+  background-image: url("../Home/asset/images/Bar1.png");
   background-repeat: no-repeat;
   width:1440px;
   height: 55px;
@@ -236,7 +236,7 @@ p{
   top: 0;
 }
 .bar3{
-  background-image: url("../首頁/asset/images/Bar1.png");
+  background-image: url("../Home/asset/images/Bar1.png");
   background-repeat: no-repeat;
   width:1440px;
   height: 55px;
