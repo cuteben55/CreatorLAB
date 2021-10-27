@@ -267,7 +267,7 @@ h1.title_story {
   color: #24FEFF;  
   }
   div.creator{ 
-  background-image: url(../首頁/asset/story/Creator2.svg);
+  background-image: url(../Home/asset/story/Creator2.svg);
   height: 623px;
   width: 400px;
 
@@ -408,7 +408,7 @@ color: #FFFFFF;
     top: 3600px;
   }
   .bar4{
-    background-image: url("../首頁/asset/images/Bar1.png");
+    background-image: url("../Home/asset/images/Bar1.png");
     background-repeat: no-repeat;
     width:1440px;
     height: 55px;
@@ -417,7 +417,7 @@ color: #FFFFFF;
     top: 0;
   }
   div.game_logo{
-background-image: url("../首頁/asset/images/GameLogo.png");
+background-image: url("../Home/asset/images/GameLogo.png");
 background-repeat: no-repeat;
 width: 651.45px;
 height: 392px;
@@ -472,7 +472,7 @@ left: 120px;
   }
   
   .bar5{
-    background-image: url("../首頁/asset/images/Bar1.png");
+    background-image: url("../Home/asset/images/Bar1.png");
     background-repeat: no-repeat;
     width:1440px;
     height: 55px;
@@ -493,7 +493,7 @@ left: 120px;
   }
  
   .bar6{
-    background-image: url("../首頁/asset/images/Bar1.png");
+    background-image: url("../Home/asset/images/Bar1.png");
     background-repeat: no-repeat;
     width:1440px;
     height: 55px;
@@ -620,7 +620,7 @@ left: 120px;
               bottom:0;
             }
             .social{
-              background-image: url(../首頁/asset/images/Social\ Media.svg);
+              background-image: url("../Home/asset/images/Social\ Media.svg");
               background-repeat: no-repeat;
             
               position: absolute;
@@ -631,7 +631,7 @@ left: 120px;
               margin: 35px;
              }
              .logo3{
-              background-image: url(../首頁/asset/images/Logo/logo3.svg);
+              background-image: url("../Home/asset/Logo/logo3.svg");
               background-repeat: no-repeat;
               width: 264px;
               height: 50px;
