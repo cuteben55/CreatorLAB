@@ -3,24 +3,9 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 
 }
-div.BG{
-  margin: 0 auto;
-  width: 1440px;
-  height: 5300px;
-  background: rgba(0, 88, 157, 1);
-/* border: 10px solid seagreen; */
-}
-div.frame{
-  background-image: url("../Home/asset/images/g-nav-frame-center.png");
-  background-repeat: no-repeat;
-  width:1440px;
-  height: 55px;
-  position:fixed;
-  transform: translatex(-50%);
-  background-size: contain;
-  left: 50%;
 
-}
+
+
  div.main_container{
 
   margin: 0 auto;
