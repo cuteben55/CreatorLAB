@@ -146,7 +146,7 @@ li:hover ul.submenu{
 .header__frame__side {
   height: 69.23076%;
   width: 100%;
-  background: url("/Home/asset/images/frame/g-nav-frame-pt.png");
+  background: url("../Home/asset/images/frame/g-nav-frame-pt.png");
   background-repeat: repeat-x;
   background-position: left top;
   background-size: auto 100%;
