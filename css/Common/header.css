@@ -3,7 +3,7 @@
 }
 body{
   margin: 0 ;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans TC', sans-serif;
   background: rgba(0, 88, 157, 1);
 
 
@@ -12,10 +12,12 @@ body{
 
 
 .header {
-  width: 1440px;  
+  width: 100%;  
   position: fixed;
   transform: translatex(-50%);
   left:50%;
+  z-index: 99;
+
   margin: 0 auto;
   background-color:  rgba(21, 4, 124, 1);
   z-index: 3;
@@ -34,7 +36,8 @@ text-decoration: none;
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
-  width: 1440px;  
+  width: 100%;  
+
 
 }
 
@@ -164,4 +167,23 @@ li:hover ul.submenu{
   background-size: cover;
 }
 
+/* go to top */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
 
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
