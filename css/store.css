@@ -536,7 +536,7 @@ h1.ifo{
     }
 div.read_more.buttons{
 position: relative;
-left: 0;
+left: 50px;
 bottom: 0;
 padding: 50px 400px;
 padding-bottom: 0px;

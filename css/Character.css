@@ -45,13 +45,13 @@ h1.ifo_bar{
 
 
 /* 可瑞特 */
-div.creator{
+section.creator{
   /* border: 1px solid red; */
   padding-top: 50px;
 
   margin: 0 auto;
   position:relative;
-  width: 100%;
+  width: 1440px;
 }
 h1.name1 {
   padding-top: 100px;
@@ -65,11 +65,13 @@ h1.name1 {
   align-items: center;
 
   text-align: center;
+      -webkit-text-stroke: 2px black;
+
   color: rgba(21, 4, 124, 1);
 
   }
 
-  div.craetor_block{
+ div.craetor_block{
     /* border:1px solid black; */
     position: relative;
     display: flex;
@@ -121,9 +123,8 @@ margin-top: 40px;
 }
 
 /* 麵師傅 */
-div.ramen{
+section.ramen{
     /* border: 1px solid red; */
-    padding-top: 100px;
 
     margin: 0 auto;
     position:relative;
@@ -200,9 +201,8 @@ div.ramen{
   }
 
   /* FUSE MAN雷電人 */
-  div.FUSEMAN{
+  section.FUSEMAN{
     /* border: 1px solid red; */
-    padding-top: 100px;
 
     margin: 0 auto;
     position:relative;
@@ -224,7 +224,7 @@ div.ramen{
   
     }
   
-    div.FUSEMAN_block{
+  div.FUSEMAN_block{
       /* border:1px solid black; */
     
       position: relative;
@@ -276,9 +276,8 @@ div.ramen{
   }
 
   /* Sleepy MAN沈睡鳥人 */
-div.SleepyMAN{
+  section.SleepyMAN{
     /* border: 1px solid red; */
-    padding: 50px 0;
     margin: 0 auto;
     position:relative;
      width: 1440px;
@@ -308,7 +307,7 @@ div.SleepyMAN{
      }
   div.aside4{
     /* border: 1px solid red; */
-    padding-top: 120px;
+    padding-top: 100px;
 
     color: white;
     width: 530px;
@@ -326,7 +325,7 @@ div.SleepyMAN{
 
   }
   div.S_right > p{
-    padding-top: 120px;
+    padding-top: 100px;
 
     position: relative;
     padding-left: 20px;
@@ -346,7 +345,7 @@ div.SleepyMAN{
   position: relative;
   width: 364px;
   height: 568px;
-  margin-top: 100px;
+  margin-top: 40px;
   }
 
   /* SharkMAN鯊魚人 */
@@ -380,7 +379,6 @@ div.SleepyMAN{
      }
   div.aside5{
     /* border: 1px solid red; */
-    margin-right: 32px;
     color: white;
     width: 530px;
     height: 662px;
@@ -389,7 +387,7 @@ div.SleepyMAN{
   }
   div.ss_right{
     /* border: 1px solid blue;  */
-    width: 878px;
+    width: 910px;
     display: flex;
     color: white;
     background-color: #BDCFFE;
@@ -445,42 +443,7 @@ padding: 50px 400px;
 padding-bottom: 0px;
 }
 
-    .rating-css {
-      position: relative;
-      height: 220px;
-      width: 1074px;
-      background: #15047C;
-      border: 4px solid #838383;
-      padding: 20px;
-      
-      margin: 40px 0;
-      margin-left: 50px;
-    }
-    .rating-css div {
-      color: #FFCB08;
-      font-size: 36px;
-      font-family: sans-serif;
-      font-weight: 800;
-      text-align: center;
-      text-transform: uppercase;
-      padding: 20px 0;
-    }
-    .rating-css input {
-      display: none;
-    }
-    .rating-css input + label {
-      font-size: 40px;
-      text-shadow: 1px 1px 0 #FFCB08;
-      cursor: pointer;
-    }
-    .rating-css input:checked + label ~ label {
-      color: #838383;
-    }
-    .rating-css label:active {
-      transform: scale(0.8);
-      transition: 0.3s ease;
-    }
-   
+    
     
 
      /* social media */
@@ -617,13 +580,4 @@ padding-bottom: 0px;
   margin: 0 auto;
 }
 
-	#pinContainer {
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-	}
-	.panel {
-		height: 100%;
-		width: 100%;
-		position: absolute;
-	}
+	
