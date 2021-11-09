@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/story.css">
     <link href="./css/css/all.css" rel="stylesheet">
     <link rel="icon" href="./Home/asset/Logo/C_favicon.svg">
+    <link rel="stylesheet" href="./plugins/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="./plugins/Animate/animate.min.css">
   
 </head>
 
@@ -44,49 +46,49 @@
       </header>
 
 
-         <main>
+      <main>
            <div class="title">
-            <h1>Creator Laboratory</h1>
-            <img class="logo1"  src="./Home/asset/Logo/文字版logo 1.svg">
+            <h1 class="animate__animated animate__backInLeft">Creator Laboratory</h1>
+            <img  class="animate__animated animate__backInLeft   logo1" src="./Home/asset/Logo/文字版logo 1.svg">
 
 
            </div>
-           <div class="event_block1" >
+          <div  class="event_block1" >
 
-            <img class="logo2" src="./Story/Creator2.svg">
+            <img data-aos="fade-right"     data-aos-delay="1000" class="logo2" src="./Story/Creator2.svg">
             <h1>來自22世紀的機器人 <br>
               穿越時空拯救世界！</h1>
               <p>本作以獨特的世界觀展開冒險！</p>
            </div>
          
-           <div class="event_block2">
-                <img src="./Story/bg2.png" alt="">
+           <div data-aos="fade-right" class="event_block2">
+                <img src="./Story/bg2.png" >
 
-                <video autoplay loop src="./Store/asset/8FoYKgc.mp4" style="margin-top: 400px;"></video>
+                <video data-aos="fade-down"  data-aos-delay="1000" autoplay loop src="./Store/asset/8FoYKgc.mp4" style="margin-top: 400px;"></video>
                 <h1>很有挑戰性卻令人欲罷不能！<br>
                   每個關卡都充滿具頭目特徵的機關陷阱。</h1>
             </div>
              
-            <div class="container">
+            <div data-aos="fade-up" class="container">
               <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Cat_plotting_something_evil%21.jpg">
-                <div class="card__head">Plotting Cat</div>
+                <img src="./Story/bg3.png">
+                <div class="card__head">可瑞特實驗室</div>
               </div>
               <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/False_alarm_-a.jpg/1280px-False_alarm_-a.jpg">
-                <div class="card__head">Angry Cat</div>
+                <img src="./Story/bg4.png">
+                <div class="card__head">特殊功能</div>
               </div>
               <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Neugierige-Katze.JPG/1280px-Neugierige-Katze.JPG">
-                <div class="card__head">Curious Cat</div>
+                <img src="./Story/bg5.png">
+                <div class="card__head">場景：礦工</div>
               </div>
               <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Al_acecho_%289272124788%29.jpg/1280px-Al_acecho_%289272124788%29.jpg">
-                <div class="card__head">Prowling Cat</div>
+                <img src="./Story/bg6.png">
+                <div class="card__head">場景：雷電急流</div>
               </div>
               <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mimi%26Tigsi.jpg/1280px-Mimi%26Tigsi.jpg">
-                <div class="card__head">Sleepy Cat</div>
+                <img src="./Story/bg7.png">
+                <div class="card__head">場景：湍急瀑布</div>
               </div>
             </div>
             </main>
@@ -132,6 +134,14 @@
 
 </footer> 
 <script src="./Story/story.js"></script>
+<script src="./plugins/aos-master/dist/aos.js"></script>
+<script>
+  AOS.init();
+  once: true; // 是否重複觸發動畫
+  mirror: true;
+  duration:1000;
+  
+</script>
 
 
   </html>
