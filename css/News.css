@@ -8,6 +8,10 @@
     font-family: 'Noto Sans TC', sans-serif;
 
 }
+.nav_list li:nth-child(1){
+  background-color: #b02914;
+}
+
 section.banner{
 /* border: 1px solid red; */
 position: relative;
@@ -68,6 +72,9 @@ div.filter{
   display: none;
 }
 
+.filterDiv:hover{
+cursor: pointer;
+}
 .show {
   display: block;
 }
