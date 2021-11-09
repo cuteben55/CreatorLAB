@@ -21,7 +21,7 @@
               <ul class="nav_list">
                 <li> <a href="News.html">News</a> </li>
   
-                  <li>   <a href="#">Story</a>
+                  <li>   <a href="Story.html">Story</a>
                         <ul  class="submenu" >
                               <li>  <a   href="Character.html">角色介紹</a> </li>
                         </ul>
@@ -44,152 +44,101 @@
         
       </header>
 
-  <main>
+   <main>
+          <section class="banner">
+              <div class="title">
+                <p>Latest</p>
+                <p>News</p>
+              </div>
+              <img src="./News/logo3英文版.svg">
+              <img class="banner_img" src="./News/Creator2_cut.png">
 
-  <div class="main_container">
-      <div class="BG"></div>
-      <section class="play_banner">
+          </section>
         
-          <h1 class="ifo_bar"><a href="index.html"><i class="fas fa-angle-double-left"></i>Back</a>
-            最新消息</h1>
-            <div class= "aside">
-        
+          <section class="event_block">
+            <div class="filter">
+              <div class="BtnContainer" id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('news')"> News</button>
+                <button class="btn" onclick="filterSelection('report')">專訪</button>
+               
+              </div>
+              
+              <div class="container">
+                <div class="filterDiv news"><img src="./News/update.png" alt="">
+                  <h1>2021.11.15 更新內容</h1>
+                  <p>除了遊戲本篇之外，還收錄能挑戰時間<br>競速等任務，跟全球玩家爭奪排名的<br>「Challenge」......
+                  </p>
                 
-                       
-            </div>
-        <ul class="slides">
-          <input type="radio" id="control-1" name="control" checked>
-          <input type="radio" id="control-2" name="control">
-          <input type="radio" id="control-3" name="control">
-          
-          <!--  Left/Right Button  -->
-          <div class="navigator slide-1">
-            <label for="control-3">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label for="control-2">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-          
-          <div class="navigator slide-2">
-            <label for="control-1">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label for="control-3">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-          
-          <div class="navigator slide-3">
-            <label for="control-2">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label for="control-1">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-          <!--  /Left/Right Button  -->
-          
-          <li class="slide"></li>
-          <li class="slide"></li>
-          <li class="slide"></li>
-          
-          <div class="controls-visible">
-            <label for="control-1"></label>
-            <label for="control-2"></label>
-            <label for="control-3"></label>
-          </div>
-        </ul>
+                </div>
+            
+                <div class="filterDiv report"><img src="./News/SpeedRun.png" alt="">
+                  <h1>  Speed Run 百萬獎金等你拿</h1>
+                  <p>挑戰最速通關滿足你的求勝欲！追求刺激<br>的同時還有百萬獎金等你拿，快來參<br>加活動......
+                  </p>
+                </div>
+                <div class="filterDiv report"><img src="./News/stage.png">
+                  <h1>  場景更新 漆黑電流之塔 </h1>
+                  <p>雷電人的專屬舞台，因著場地加成的效果，<br>
+                    可瑞特將如臨大敵！隨機出現的高壓電流<br>
+                    只要觸碰到就會造成大量傷害......</p>
+                </div>
+                <div class="filterDiv news">
+                  <img src="./News/shark.png" alt="">
+                  <h1>鯊魚人登場 首次加入新角色</h1>
+                  <p>海上霸主鯊魚人登場！銳利的獠牙正緊<br>盯著獵物，一但獵物觸發了鯊魚人<br>的雷達......
+                  </p>
+                </div>
         
-
-      </section>
-      <section class="news1">
-        <div class="des1">
-
-            <h1 class="title_des">線上Speed Run大賽-百萬獎金等你拿</h1>           
-            <div class="line"></div>
-            <div class="icon_1"></div>
-            <p>全世界系列累計銷量3,200萬份以上的《可瑞特實驗室》系列最新作登場！精緻的場景與遊戲設計給你全新的感官體驗！<br>
-            《可瑞特實驗室》以最新姿態回歸。來自22世紀的機器人穿越時空只為了拯救即將毀滅的世界！
-              精彩刺激的遊戲設計及多樣的關卡選擇絕對值得期待！另外，豐富的難度選擇亦能為很久沒玩的玩家提供最適合的選擇。
-              除了遊戲本篇之外，還收錄能挑戰時間競速等任務，跟全球玩家爭奪排名的「Challenge」模式，等你來挑戰！
-              </p>
-              <div class="btn1"><a href="#"><input  type="button" value="Read More"></a></div>
-            </div>
-
-        </section>
+                  
 
 
-        <section class="news2">
-
-
-            <div class="des2">
-                <h1 class="title_des2">鯊魚人登場-首次加入新角色</h1>            
-                <div class="line2"></div>
-                <div class="icon_2"></div>
-
-                <p>全世界系列累計銷量3,200萬份以上的《可瑞特實驗室》系列最新作登場！精緻的場景與遊戲設計給你全新的感官體驗！<br>
-                  《可瑞特實驗室》以最新姿態回歸。來自22世紀的機器人穿越時空只為了拯救即將毀滅的世界！
-                    精彩刺激的遊戲設計及多樣的關卡選擇絕對值得期待！另外，豐富的難度選擇亦能為很久沒玩的玩家提供最適合的選擇。
-                    除了遊戲本篇之外，還收錄能挑戰時間競速等任務，跟全球玩家爭奪排名的「Challenge」模式，等你來挑戰！
-                    </p>
-                <div class="btn2"><a href="#"><input  type="button" value="Read More"></a></div>     
-              </section>
-
-              <section class="news3">
-
-              <div class="des3">
-                <h1 class="title_des3">場景更新-帶來最刺激的遊戲體驗</h1>            
-                <div class="line3"></div>
-                <div class="icon_3"></div>
-
-                <p>全世界系列累計銷量3,200萬份以上的《可瑞特實驗室》系列最新作登場！精緻的場景與遊戲設計給你全新的感官體驗！<br>
-                    《可瑞特實驗室》以最新姿態回歸。來自22世紀的機器人穿越時空只為了拯救即將毀滅的世界！
-                      精彩刺激的遊戲設計及多樣<br>的關卡選擇絕對值得期待！另外，豐富的難度選擇亦能為很久沒玩的玩家提供最適合的選擇。
-                      除了遊戲本篇之外，還收錄<br>能挑戰時間競速等任務，跟全球玩家爭奪排名的「Challenge」模式，等你來挑戰！
-                </p>
-                <div class="btn3"><a href="#"><input  type="button" value="Read More"></a></div>     
-              </section>
+              </div>
               
-              <div class="pages">
-                <ul class="pagination">
-                  <li><a href="#">&lt;</a></li>
-                  <li><a href="#" class="-on">1</a></li>
-                    <li><a href="#" >2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">6</a></li>
-                    <li><a href="#">7</a></li>
-                    <li><a href="#">8</a></li>
-                    <li><a href="#">9</a></li>
-                    <li><a href="#">10</a></li>
-                    <li><a href="#">&gt;</a></li>
-                  </ul>
-                      
-            </div>  
-              
-        
-  
-
-
-          <section class="footer_bg">        
-            <h1 class="ifo">更多資訊：</h1>           
-            <div class="social"></div>
-        </section>
-</div>
-        
+       </div>         
+                
+          </section>
+          
  </main>
 
- <footer class="footer">  
-   © All rights reserved
-  <div class="logo3"></div>
-  <p>本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:洛克人11。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理  </p>
+ <div class="more_info">        
+  <!-- social media -->
 
- </footer>
+  <div class="wrapper">
+    <h1 class="ifo">更多資訊：</h1>   
 
+    <div class="icon facebook">
+      <div class="tooltip">Facebook</div>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </div>
+    <div class="icon twitter">
+      <div class="tooltip">Twitter</div>
+      <span><i class="fab fa-twitter"></i></span>
+    </div>
+    <div class="icon instagram">
+      <div class="tooltip">Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </div>
+    <div class="icon github">
+      <div class="tooltip">Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </div>
+    <div class="icon youtube">
+      <div class="tooltip">Youtube</div>
+      <span><i class="fab fa-youtube"></i></span>
+    </div>
+  </div>        
+</div>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<footer class="footer">  
+© All rights reserved
+<div class="logo3"></div>
+<p>本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:洛克人11。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理  </p>
+
+</footer> 
+ <script src="./News/news.js"></script>
   </body>
 
   </html>
