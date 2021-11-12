@@ -2,14 +2,16 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>可瑞特實驗室</title>
     <link rel="stylesheet" href="./css/index.css">
     <link href="./css/css/all.css" rel="stylesheet">
     <link rel="icon" href="./Home/asset/Logo/C_favicon.svg">
     <link rel="stylesheet" type="text/css" href="./plugins/slick-1.8.1/css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./plugins/slick-1.8.1/css/slick-theme.css"/>
-    
+    <link rel="stylesheet" href="./plugins/Animate/animate.min.css">
+    <link rel="stylesheet" href="./plugins/aos-master/dist/aos.css">
+
   </head>
   
   <body>
@@ -17,6 +19,7 @@
   <header class="header">
 
     <div class="header_menu">
+
       <h1><a href="index.html"><img src="./Home/asset/Logo/Logo.svg" alt="這是Logo"></a></h1>
 
         <nav>
@@ -37,6 +40,12 @@
               <li> <a href="#"><i class="fas fa-shopping-cart"></i></a> </li>
             </ul>
           </nav>
+          <button class="hamburger hamburger--squeeze  btn_switch" type="button">
+            <span class="hamburger-box btn_switch">
+              <span class="hamburger-inner" btn_switch></span>
+            </span>
+          </button>
+
       </div>
       <div class="header__frame">
         <div class="header__frame__side"></div>
@@ -45,39 +54,38 @@
       </div>
       
     </header>
-          <div class="banner_block">
+          <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="banner_block">
               <div class="banner_img"></div>
               <div class="banner_logo"></div>
 
-            <div class=banner_content>
-              <h1>         
-                <img src="./Home/asset/BG/圖層 4.svg" alt="這是logo">
-              </h1>
-              <button class="release_date"><a href="Store.html">AVAILABLE NOW </a></button>
-                <!-- <div class="release_date"><a href="Store.html" style="text-decoration:none; color: white;">AVAILABLE NOW </a></div> -->
-
-            </div>
-          </div>
+              <div class=banner_content>
+                  <h1>         
+                    <img src="./Home/asset/BG/圖層 4.svg" alt="這是logo">
+                  </h1>
+                  <button class="animate__animated  animate__bounce animate__infinite release_date"><a href="Store.html">AVAILABLE NOW </a></button>
+                  <div class="release_date"><a href="Store.html" style="text-decoration:none; color: white;">AVAILABLE NOW </a></div> 
+              </div>
+         </div>
   
        
     
 
         
-        <section class="news">     
+        <section  data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000"  class="news">     
             <div class="frame_top"></div>
 
               <h1 class="title_news">News</h1>            
 
               <ul class="event_contianer">
-                <li><a href="#"><img src="./Home//asset/news/update.png" alt=""></a></li>
-                <li><a href="#"><img src="./Home/asset/news/stage.png" alt=""></a></li>
-                <li><a href="#"><img src="./Home/asset/news/speedrun.png" alt=""></a></li>
-                <li><a href="#"><img src="./Home/asset/news/newchar.png" alt=""></a></li>
+                <li><a href="News.html"><img src="./Home//asset/news/update.png" alt=""></a></li>
+                <li><a href="News.html"><img src="./Home/asset/news/stage.png" alt=""></a></li>
+                <li><a href="News.html"><img src="./Home/asset/news/speedrun.png" alt=""></a></li>
+                <li><a href="News.html"><img src="./Home/asset/news/newchar.png" alt=""></a></li>
               </ul>
               
             </section>     
 
-          <section class="story">
+          <section data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="story">
             <div class="frame_top"></div>
             <div class="story_image">
                 <img  class = "creator"  src="./Home/asset/story/Creator2.svg">
@@ -98,7 +106,7 @@
             </section>
 
 
-          <section class="about">
+          <section data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="about">
             <div class="frame_top"></div>
 
               <div class="about_content">
@@ -119,8 +127,7 @@
             
           </section>
 
-        </section>
-        <section class="store">
+        <section data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="store">
           <div class="frame_top"></div>
           <div class="game_logo">
             <div content_frame>
@@ -143,7 +150,7 @@
         </section>
 
 
-        <section class="join">        
+        <section data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="join">        
           <div class="frame_top"></div>
 
             <h1 class="title_join">招募</h1>            
@@ -155,7 +162,7 @@
         </section>
 
           <div class="more_info">        
-              <!-- social media -->
+              <!--social media -->
 
               <div class="wrapper">
                 <h1 class="ifo">更多資訊：</h1>   
@@ -190,14 +197,21 @@
   <div class="logo3"></div>
   <p>本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:洛克人11。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理  </p>
 
- </footer> 
+ </footer--> 
   
 
  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  <script type="text/javascript" src="./plugins/slick-1.8.1/js/slick.js"></script>
  <script src="./Home/asset/js/index.js"></script>
+ <script src="./plugins/aos-master/dist/aos.js"></script>
  <script>
+   AOS.init();
+   once: true; // 是否重複觸發動畫
+   mirror: true;
+ duration:100;
+ </script>
+<script>
   $('.event_contianer').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
