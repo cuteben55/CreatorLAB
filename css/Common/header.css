@@ -36,6 +36,9 @@ button.btn_switch{
 /* 行動版時，將按鈕顯示出來 */
 @media screen and (max-width: 767px){
   button.btn_switch{
+    position: fixed;
+    right: 0;
+    bottom: 5px;
     display: inline-block;
     z-index: 99;
   }
@@ -51,52 +54,21 @@ text-decoration: none;
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
-  width: 1440px;  
+  width: 100%;  
 
 
 }
 
-@media (min-width: 320px) and (max-width: 575.98px){
-  div.header_menu {
-    width: 300px;
-  }
-}
-@media (min-width: 576px) and (max-width: 767.98px){
-  div.header_menu {
-    width: 540px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px){
-  div.header_menu {
-    width: 800px;
-  }
-}
-  @media (min-width: 992px) and (max-width: 1199.98px){
-  div.header_menu {
-    width: 960px;
-  }
-}
-  
-  @media  (min-width: 1200px) and (max-width: 1399.98px){
-  div.header_menu {
-    width: 1140px;
-  }
-}
-    @media (min-width: 1400px){
-      div.header_menu{
-    width: 1320px;
-  }
-}
 
 .header h1 {
   margin: 0;
+  font-size: 100%;
 }
 div.header_menu h1 img {
-width: 113px;
-padding-top: 10px;
-
+padding-top: 5px;
 
 }
+
 .nav_list {
   display: flex;
   width: 100%;
@@ -127,8 +99,8 @@ padding-top: 10px;
     flex-direction: column;
     border: 1px solid white;
     position:absolute;
-
-    width: 150px;
+    right: 12px;
+    width: 178px;
     z-index: 99;
     color: black;
     background-color:  rgba(21, 4, 124, 1);
@@ -136,20 +108,6 @@ padding-top: 10px;
 }
 
  
-/* @media(min-width: 768px) and (max-width: 991.98px){
-ul.nav_list{
- flex-direction: column;
-padding: 0;
-margin: 0;
-border: 1px solid white;
-position:absolute;
-right: 50px;
-z-index: 99;
-color: black;
-background-color:  rgba(21, 4, 124, 1);
-
-  }  
-} */
 
 ul.nav_list > li {
   position: relative;

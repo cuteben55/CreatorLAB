@@ -3,52 +3,123 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 
 }
+img{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+div.banner_content img{
+    width: 450px!important;
+  }
+}
 
 .banner_block{
-  display: flex;
-  /* border: 5px solid #ff0000; */
-  margin: 0 auto;
-  width:1440px; 
   position: relative;
-  height: 1090px;
+
+  width:100%;
    padding-top:100px;
+   overflow: hidden;
+
 }
-/* banner */
-.banner_img{
-  background-image: url("../Home/asset/BG/167425.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 980px;
-  background-size: cover;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
-  left: 0;  
-  z-index: 1;
+img.char{
+    position: absolute;
+    z-index: 3;
+    top:120px;    
+    right: 20px;
+
+  }
+  @media (max-width: 768px) {
+    img.char{
+      /* border: 2px solid white; */
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      
+    
+    }
+  }
+
 
   
-}
-.banner_logo{
-  background-image: url("../Home/asset/BG/圖層\ 3.svg");
-  background-repeat: no-repeat;
-   height: 929px; 
-   width: 100%;
-  position: absolute;
-   left: 40.68%;
-  right: 3.55%;
-  top:140px;  
-  z-index: 1;
+  .mainvisual__bg {
+    height: 100%;
+  }
+ 
+  @media screen and (max-width: 768px){
+    
+    .mainvisual__bg {
+      height:700px;
+    }
+  } 
+  /* @media (min-width: 768px) and (max-width: 991.98px){
+    
+    .mainvisual__bg {
+      height: 1000px;
+    }
+  } 
+  @media (min-width: 922px) and (max-width: 1399.98px){
+    
+    .mainvisual__bg {
+      height: 1100px;
+    }
+  }
+ */
 
-}
+
+
+
+
+/* banner */
+
+
+
 
 .banner_content{
   /* border: 2px solid white; */
-  position: relative;
-  z-index: 2;
-  margin-left: 60px;
-  margin-top: 400px;
+  position: absolute;
+  top:400px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  
 
 }
+
+@media screen and (max-width:768px) {
+  .banner_content{
+    /* border: 2px solid white; */
+    position: absolute;
+    top:500px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    
+  
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1300px){
+  .banner_content{
+    top:600px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .release_date a,button.release_date, button.release_date::after{
+    font-size: 30px !important;
+    width: 320px!important;
+    height: 110px!important;
+
+  }
+}
+
+
+
 /* avaliable */
 .release_date a{
  text-decoration:none; 
