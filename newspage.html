@@ -16,7 +16,7 @@
     <header class="header">
 
       <div class="header_menu">
-        <h1><a href="index.html"><img src="./Home/asset/Logo/Logo.svg" alt="這是Logo"></a></h1>
+        <h1><a href="index.html"><img src="./Home/asset/Logo/header_logo.svg" alt="這是Logo"></a></h1>
   
           <nav>
               <ul class="nav_list">
@@ -134,7 +134,24 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+// 導覽列縮合
+$(function(){
+  
+  // 點擊按鈕，選單縮放
+  $("button.btn_switch").on("click", function(){
+    $("nav").slideToggle();
+  });
+  
+});
 
+$(function(){
+  
+  // hamburger icon 的切換
+  $("button.hamburger").on("click", function(){
+    $(this).toggleClass("is-active");
+  });
+
+});
 
  </script>
   </body>
