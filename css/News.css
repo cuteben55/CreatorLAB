@@ -8,6 +8,10 @@
     font-family: 'Noto Sans TC', sans-serif;
 
 }
+img{
+  max-width: 100%;
+}
+
 .nav_list li:nth-child(1){
   background-color: #b02914;
 }
@@ -15,21 +19,37 @@
 section.banner{
 /* border: 1px solid red; */
 position: relative;
-width: 1440px;
+background-color: #BDCFFE;
 padding-top: 120px;
 margin: 0 auto;
-background-color: #BDCFFE;
 display: flex;
-flex-grow: 2;
 }
-.banner_img{
-/* border: 1px solid red; */
-padding-left: 50px;
-position: relative;
+
+@media screen and (max-width: 768px) {
+  section.banner{
+    flex-direction: column;
+    } 
 }
+@media screen and (min-width:786px)and (max-width:1100px){
+  section.banner img{
+      width: 60%;
+    }
+  } 
+@media screen and (min-width:1100px)and (max-width:1300px){
+  section.banner img{
+      width: 70%;
+    }
+  } 
 div.title{
-  padding:0  100px;
+  padding:0  50px;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  div.title > p:nth-child(1){
+    font-size: 18px !important;
+    margin-top: 0;
+
+  }
 }
 div.title >p:nth-child(1){
   font-size: 36px;
@@ -48,18 +68,24 @@ div.title  >p:nth-child(2){
   -webkit-text-stroke: 2px black;
 
 }
+@media screen and (max-width: 768px) {
+  div.title  >p:nth-child(2){
+    font-size: 36px !important;
+    margin-bottom: 0;
+  }
+}
 section.event_block{
   position: relative;
   margin: 0 auto;
   padding-bottom: 100px;
-  width: 1440px;
+  width: 100%;
   
 }
 
 div.filter{
   padding-top: 90px;
-  padding-left: 100px;
-
+  position: relative;
+  left: 50px;
 }
 
 .filterDiv {
@@ -70,6 +96,8 @@ div.filter{
   text-align: center;
   margin: 10px;
   display: none;
+  margin-left: 0;
+  border: 5px solid #00589D;  
 
 }
 
@@ -136,156 +164,165 @@ div.filterDiv p{
   padding: 15px;
 }
  
-/* more ifo */
-div.more_info{
+   /* more ifo */
+   div.more_info{
+    position: relative;
+     background: #E6FEE4;
+     width: 100%;  
+     margin: 0 auto;
+     bottom:0;
+       }
+  h1.ifo{
+    margin: 0;
   position: relative;
-   background: #E6FEE4;
-   width: 100%;  
-   margin: 0 auto;
-   bottom:0;
-     }
-h1.ifo{
-position: relative;
-margin: 0;
-font-weight: bold;
-font-size: 36px;
-line-height: 92px;
-align-items: center;
--webkit-text-stroke: 1px black;
-text-align: center;
-color: #24FEFF;
-          
-  }
-
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 80px;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  color: #24FEFF;
+            
+    }
+    
+    @media screen and (max-width:768px){
+      h1.ifo{
+        font-size: 18px;
+        -webkit-text-stroke: 0.5px black;
+          }
+        }
 /* social media */
 
 
 
 *:focus,
 *:active {
-outline: none !important;
--webkit-tap-highlight-color: transparent;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 
 
 
 .wrapper {
-display: inline-flex;
-align-items: center;
-position: relative;
-left: 50%; 
-transform: translateX(-50%);
-}
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  left: 50%; 
+  transform: translateX(-50%);
+  margin-bottom: 15px;
+ }
 
 .wrapper .icon {
-position: relative;
-background-color: #ffffff;
-border-radius: 50%;
-padding: 15px;
-margin: 10px;
-width: 50px;
-height: 50px;
-font-size: 18px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-cursor: pointer;
-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .tooltip {
-position: absolute;
-top: 0;
-font-size: 14px;
-background-color: #ffffff;
-color: #ffffff;
-padding: 5px 8px;
-border-radius: 5px;
-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-opacity: 0;
-pointer-events: none;
-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .tooltip::before {
-position: absolute;
-content: "";
-height: 8px;
-width: 8px;
-background-color: #ffffff;
-bottom: -3px;
-left: 50%;
-transform: translate(-50%) rotate(45deg);
-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .icon:hover .tooltip {
-top: -45px;
-opacity: 1;
-visibility: visible;
-pointer-events: auto;
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
-text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-background-color: #3b5999;
-color: #ffffff;
+  background-color: #3b5999;
+  color: #ffffff;
 }
 
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-background-color: #46c1f6;
-color: #ffffff;
+  background-color: #46c1f6;
+  color: #ffffff;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-background-color: #e1306c;
-color: #ffffff;
+  background-color: #e1306c;
+  color: #ffffff;
 }
 
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
-background-color: #333333;
-color: #ffffff;
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
-background-color: #de463b;
-color: #ffffff;
+  background-color: #de463b;
+  color: #ffffff;
 }
 
 
 
-footer{
-margin: 0 auto;
+  footer{
+  margin: 0 auto;
+  position: relative;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;  
+  margin: 0 auto;
+  }
+
+
+footer img{
+padding-top: 10px;
 position: relative;
-background-color: black;
-color: white;
-text-align: center;
-padding: 20px;
-width: 100%;  
+display: block;
 margin: 0 auto;
 }
-
-
-.logo3{
-background-image: url("../Home/asset/Logo/logo3.svg");
-background-repeat: no-repeat;
-width: 264px;
-height: 50px;     
-margin: 0 auto;
-}
+footer p{
+margin-top: 5px;
+} 
