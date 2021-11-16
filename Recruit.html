@@ -18,7 +18,7 @@
     <header class="header">
 
       <div class="header_menu">
-        <h1><a href="index.html"><img src="./Home/asset/Logo/Logo.svg" alt="這是Logo"></a></h1>
+        <h1><a href="index.html"><img src="./Home/asset/Logo/header_logo.svg" alt="這是Logo"></a></h1>
   
           <nav>
               <ul class="nav_list">
@@ -69,8 +69,11 @@
 				<div  data-aos="zoom-in" data-aos-easing="ease-out-cubic"
 				data-aos-duration="2000" class="members">
 					<div class="members_up">
-						<img src="./Recruit/Coffee-Spill 1.png" style="padding-right: 200px;">
+						<img src="./Recruit/Coffee-Spill 1.png">
+						<p >企劃</p>
 						<img src="./Recruit/Designer 1.png">
+						<p>工程師</p>
+
 					</div>
 						<div class="titlebar_1">
 							<p style="padding: 0 140px;">企劃</p>
@@ -79,8 +82,10 @@
 				
 
 				<div class="members_down">
-					<img src="./Recruit/gravit-designer-review-featured-iamge 1.png" style="padding-left: 120px;">
-					<img src="./Recruit/Play-Music 1.png"style="padding-right: 120px">
+					<img src="./Recruit/gravit-designer-review-featured-iamge 1.png">
+					<p>美術</p>
+					<img src="./Recruit/Play-Music 1.png">
+					<p>音樂</p>
 				</div>	
 					<div class="titlebar_1">
 						<p>美術</p>
@@ -250,7 +255,7 @@
 
 <footer class="footer">  
 © All rights reserved
-<div class="logo3"></div>
+<img src="./Home/asset/Logo/footer_logo.svg">
 <p>本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:洛克人11。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理  </p>
 
 </footer> 
@@ -262,6 +267,26 @@
   once: true; // 是否重複觸發動畫
   mirror: true;
 duration:100;
+</script>
+<script>
+	// 導覽列縮合
+$(function(){
+  
+  // 點擊按鈕，選單縮放
+  $("button.btn_switch").on("click", function(){
+    $("nav").slideToggle();
+  });
+  
+});
+
+$(function(){
+  
+  // hamburger icon 的切換
+  $("button.hamburger").on("click", function(){
+    $(this).toggleClass("is-active");
+  });
+
+});
 </script>
 <script>
 	$(window).scroll(function() {

@@ -11,13 +11,15 @@
 .nav_list li:nth-child(4){
   background-color: #b02914;
 }
-
+img{
+  max-width: 100%;
+}
 
 div.frame{
   background-image: url("../首頁/asset/images/g-nav-frame-center.png");
   background-repeat: no-repeat;
-  width:1440px;
-  height: 55px;
+  width: 100%;
+   height: 55px;
   position:fixed;
   transform: translatex(-50%);
   background-size: contain;
@@ -29,14 +31,18 @@ div.frame{
 
 section.play_banner{
 
-  border: 1px solid red;
   margin: 0 auto;
   position: relative;
-  width: 1440px;
+  width: 100%;
   padding: 200px 0;
   display: flex;
   justify-content:space-between;
 
+}
+@media screen and (max-width:768px){
+  section.play_banner{
+        flex-direction: column;
+}
 }
 div.carousel{
   border: 1px white;
@@ -51,12 +57,12 @@ ul.slick-dots{
     bottom: -40px;
 }
 ul.event.slider-for img{
-  width: 1059px;
-  height:648px ;
+  width: 100%;
 
 }
 ul.event.slider-for,ul.event.slider-nav {
-  width: 1059px;
+  width: 1100px;
+  overflow: hidden;
   margin-top: 0;
 }
 ul.event.slider-nav img,ul.event.slider-nav iframe{
@@ -244,10 +250,9 @@ i.fab.fa-windows{
 
 
 section.describe{
-  border: 1px solid red;
   margin: 0 auto;
 
-  width: 1440px;
+  width: 100%;
   position:relative;
   display: flex;
 justify-content: space-around;
@@ -321,7 +326,7 @@ h1.title_des {
     border-radius: 32px;
 
   }
-  div.icon{
+  div.icons{
     background-image: url("../Store/asset/普遍級.jpeg");
     width: 111px;
     height: 111px;
@@ -472,7 +477,7 @@ div.des_right{
   /* border: 10px solid black; */
   margin: 0 auto;
 
-  width: 1440px;
+  width: 100%;
   position: relative;
 }
 
@@ -536,12 +541,11 @@ h1.ifo{
     }
 div.read_more.buttons{
 position: relative;
-left: 50px;
 bottom: 0;
-padding: 50px 400px;
-padding-bottom: 0px;
+left: 0;
+padding-top: 50px;
+padding-left: 800px;
 }
-
     .rating-css {
       position: relative;
       height: 220px;
@@ -580,137 +584,187 @@ padding-bottom: 0px;
    
     
 
-     /* social media */
-
-   .wrapper  div.icon{
-     background-image: none;
-   }
-  
-  *:focus,
-  *:active {
-    outline: none !important;
-    -webkit-tap-highlight-color: transparent;
+     /* more ifo */
+div.more_info{
+  position: relative;
+   background: #E6FEE4;
+   width: 100%;  
+   margin: 0 auto;
+   bottom:0;
+     }
+h1.ifo{
+position: relative;
+margin: 0;
+font-weight: bold;
+font-size: 36px;
+line-height: 92px;
+align-items: center;
+-webkit-text-stroke: 1px black;
+text-align: center;
+color: #24FEFF;
+          
   }
-  
- 
-  
-  .wrapper {
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    left: 50%; 
-    transform: translateX(-50%);
-   }
-  
-  .wrapper .icon {
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 50%;
-    padding: 15px;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    background-color: #ffffff;
-    color: #ffffff;
-    padding: 5px 8px;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #ffffff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapper .facebook:hover,
-  .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
-    background-color: #3b5999;
-    color: #ffffff;
-  }
-  
-  .wrapper .twitter:hover,
-  .wrapper .twitter:hover .tooltip,
-  .wrapper .twitter:hover .tooltip::before {
-    background-color: #46c1f6;
-    color: #ffffff;
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
-    background-color: #e1306c;
-    color: #ffffff;
-  }
-  
-  .wrapper .github:hover,
-  .wrapper .github:hover .tooltip,
-  .wrapper .github:hover .tooltip::before {
-    background-color: #333333;
-    color: #ffffff;
-  }
-  
-  .wrapper .youtube:hover,
-  .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
-    background-color: #de463b;
-    color: #ffffff;
-  }
-  
-
-  
-    footer{
-    margin: 0 auto;
-    position: relative;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;  
-    margin: 0 auto;
-    }
 
 
- .logo3{
- background-image: url("../Home/asset/Logo/logo3.svg");
- background-repeat: no-repeat;
- width: 264px;
-  height: 50px;     
-  margin: 0 auto;
+/* more ifo */
+div.more_info{
+  position: relative;
+   background: #E6FEE4;
+   width: 100%;  
+   margin: 0 auto;
+   bottom:0;
+     }
+h1.ifo{
+  margin: 0;
+position: relative;
+margin: 0;
+font-weight: bold;
+font-size: 36px;
+line-height: 80px;
+-webkit-text-stroke: 1px black;
+text-align: center;
+color: #24FEFF;
+          
+  }
+  
+  @media screen and (max-width:768px){
+    h1.ifo{
+      font-size: 18px;
+      -webkit-text-stroke: 0.5px black;
+        }
+      }
+/* social media */
+
+
+
+*:focus,
+*:active {
+outline: none !important;
+-webkit-tap-highlight-color: transparent;
 }
+
+
+
+.wrapper {
+display: inline-flex;
+align-items: center;
+position: relative;
+left: 50%; 
+transform: translateX(-50%);
+margin-bottom: 15px;
+}
+
+.wrapper .icon {
+position: relative;
+background-color: #ffffff;
+border-radius: 50%;
+padding: 15px;
+margin: 10px;
+width: 50px;
+height: 50px;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+cursor: pointer;
+transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+position: absolute;
+top: 0;
+font-size: 14px;
+background-color: #ffffff;
+color: #ffffff;
+padding: 5px 8px;
+border-radius: 5px;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+opacity: 0;
+pointer-events: none;
+transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+position: absolute;
+content: "";
+height: 8px;
+width: 8px;
+background-color: #ffffff;
+bottom: -3px;
+left: 50%;
+transform: translate(-50%) rotate(45deg);
+transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+top: -45px;
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+background-color: #3b5999;
+color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+background-color: #46c1f6;
+color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+background-color: #e1306c;
+color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+background-color: #333333;
+color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+background-color: #de463b;
+color: #ffffff;
+}
+
+
+
+footer{
+margin: 0 auto;
+position: relative;
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+width: 100%;  
+margin: 0 auto;
+}
+
+
+footer img{
+padding-top: 10px;
+position: relative;
+display: block;
+margin: 0 auto;
+}
+footer p{
+margin-top: 5px;
+} 

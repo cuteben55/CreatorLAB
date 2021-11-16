@@ -827,10 +827,9 @@ div.store_content h3{
     
     @media screen and (max-width:768px){
       .join_content p {
-        
+        padding: 50px 0;
         font-size: 18px;
-        -webkit-text-stroke: 1px black; 
-
+        -webkit-text-stroke: 0.8px black; 
         }
     }
     @media screen and (min-width:768px)and (max-width:1300px){
