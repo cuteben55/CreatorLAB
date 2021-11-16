@@ -17,8 +17,8 @@
 
       <div class="header_menu">
         <h1><a href="index.html"><img src="./Home/asset/Logo/header_logo.svg" alt="這是Logo"></a></h1>
-  
-          <nav>
+
+          <nav class="main-nav" id="main-nav">
               <ul class="nav_list">
                 <li> <a href="News.html">News</a> </li>
   
@@ -36,7 +36,8 @@
                 <li> <a href="#"><i class="fas fa-shopping-cart"></i></a> </li>
               </ul>
             </nav>
-            <button class="hamburger hamburger--squeeze  btn_switch" type="button">
+            
+            <button  class="hamburger hamburger--squeeze  btn_switch" type="button">
               <span class="hamburger-box btn_switch">
                 <span class="hamburger-inner" btn_switch></span>
               </span>
@@ -65,8 +66,8 @@
                                     只要觸碰到就會造成大量傷害......<br><br>
 
                                     雷電人關卡:<br>
-                                    在雷電人的關卡中，電流和閃電會阻礙可瑞特前進。
-                                    然而，只要仔細觀察，必能發現前進的路徑。別錯過一瞬的空隙，突破關卡吧！
+                                    在雷電人的關卡中，電流和閃電會阻礙可瑞特前進。<br>
+                                    然而，只要仔細觀察，必能發現前進的路徑。<br>別錯過一瞬的空隙，突破關卡吧！
                         </p>
                  </div>
           
@@ -108,10 +109,43 @@
 
 <footer class="footer">  
 © All rights reserved
-<div class="logo3"></div>
+<img src="./Home/asset/Logo/footer_logo.svg">
 <p>本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:洛克人11。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理  </p>
 
 </footer> 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script>
+   let burger = document.getElementById('burger'),
+	 nav    = document.getElementById('main-nav'),
+	 slowmo = document.getElementById('slowmo');
+
+burger.addEventListener('click', function(e){
+	this.classList.toggle('is-open');
+	nav.classList.toggle('is-open');
+});
+
+slowmo.addEventListener('click', function(e){
+	this.classList.toggle('is-slowmo');
+});
+
+/* Onload demo - dirty timeout */
+let clickEvent = new Event('click');
+
+window.addEventListener('load', function(e) {
+	slowmo.dispatchEvent(clickEvent);
+	burger.dispatchEvent(clickEvent);
+	
+	setTimeout(function(){
+		burger.dispatchEvent(clickEvent);
+		
+		setTimeout(function(){
+			slowmo.dispatchEvent(clickEvent);
+		}, 3500);
+	}, 5500);
+});
+ </script> 
+ 
  <script >
 
      //Get the button:
