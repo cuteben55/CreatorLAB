@@ -108,9 +108,13 @@ div.event_block2 img{
   z-index:5;
 }
 
-video{
-  padding-top: 200px;
+.video{
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+.video{
+margin-top: 180px !important;
+}
 }
 @media screen and (max-width: 768px) {
   div.event_block2 img{
