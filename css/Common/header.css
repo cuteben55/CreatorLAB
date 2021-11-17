@@ -178,7 +178,13 @@ ul.submenu{
 
   z-index: 50;
 } 
+@media screen and (max-width:768px){
+  ul.submenu{
+    left: 200px;
+    top: 0;
 
+}
+}
 ul.submenu-item> li
 {
   list-style: none !important;

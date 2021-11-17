@@ -63,8 +63,7 @@
 
            <div class="timeline">
             <div data-aos="fade-right"class=" container left">
-                <div  class="logo"></div>
-
+              <img src="./Home/asset/Logo/logo.svg" alt="">
               </div>
             <div data-aos="fade-left" class="container right">
               <img class ="icon" src="./Home/asset/Logo/C_favicon.svg">
@@ -78,7 +77,7 @@
               </div>
             </div>
             <div data-aos="fade-right"class=" container left">
-              <div class="logo_3"></div>
+              <img src="./Home/asset/Logo/logo_en.svg">
             </div>
             
             <div  data-aos="fade-left"class="container right">
@@ -101,8 +100,7 @@
             </div>
             <div data-aos="fade-right" class="container left">
  
-              <div  class="logo_2"></div>               
-
+                <img src="./Home/asset/Logo/文字版logo 1.svg" alt="">
             </div>
             <div data-aos="fade-left" class="container right" style="margin-bottom: 50px;">
               <img class ="icon" src="./Home/asset/Logo/C_favicon.svg">
@@ -149,9 +147,9 @@
             
           <div class="more_info">        
             <social media >
+              <h1 class="ifo">更多資訊：</h1>   
 
             <div class="wrapper">
-              <h1 class="ifo">更多資訊：</h1>   
 
               <div class="icon facebook">
                 <div class="tooltip">Facebook</div>
@@ -183,8 +181,29 @@
  <img src="./Home/asset/Logo/footer_logo.svg">
 <p style="color: white; font-size:18px;">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:洛克人11。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理  </p>
 
-</footer> 
-         
+</footer--> 
+<script src="./plugins/jQuery/jquery-3.6.0.js"></script>
+
+<script>
+	// 導覽列縮合
+$(function(){
+  
+  // 點擊按鈕，選單縮放
+  $("button.btn_switch").on("click", function(){
+    $("nav").slideToggle();
+  });
+  
+});
+
+$(function(){
+  
+  // hamburger icon 的切換
+  $("button.hamburger").on("click", function(){
+    $(this).toggleClass("is-active");
+  });
+
+});
+</script>  
     <script src="./plugins/aos-master/dist/aos.js"></script>
     <script>
       AOS.init();

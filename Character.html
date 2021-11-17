@@ -196,6 +196,28 @@
 </footer> 
 <script src="./Story/Character.js"></script>
 <script src="./plugins/aos-master/dist/aos.js"></script>
+<script src="./plugins/jQuery/jquery-3.6.0.js"></script>
+
+<script>
+	// 導覽列縮合
+$(function(){
+  
+  // 點擊按鈕，選單縮放
+  $("button.btn_switch").on("click", function(){
+    $("nav").slideToggle();
+  });
+  
+});
+
+$(function(){
+  
+  // hamburger icon 的切換
+  $("button.hamburger").on("click", function(){
+    $(this).toggleClass("is-active");
+  });
+
+});
+</script>  
     <script>
       AOS.init();
       once: true; // 是否重複觸發動畫

@@ -105,8 +105,12 @@ padding-left: 200px;
 		padding-left:0;
 }
 }
+div.members_down.music{
+	padding-right:200px;
+}
+
 @media screen and  (max-width:768px){
-	div.members_down img:nth-child(2){
+	img.music{
 		padding-right:0;
 }
 }
@@ -135,7 +139,11 @@ div.members_up p,div.members_down p{
 .container{
 	padding-bottom: 120px;
 }
-
+@media screen and (max-width:768px){
+	.container{
+		padding-bottom: 10px;
+	}
+}
 .container.right{
 	display: flex;
 	flex-flow: row-reverse;
