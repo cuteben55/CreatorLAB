@@ -147,7 +147,7 @@ img.logo{
 .container.left.aos-init.aos-animate {
   justify-content: flex-start;
 }
-
+}
 .container .icon {
   position: absolute;
   display: inline-block;
@@ -216,7 +216,7 @@ img.logo{
   .timeline::after {
    left:  92px;
   }
-}
+
   .container {
     width: 100%;
     padding-left: 120px;
