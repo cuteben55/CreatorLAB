@@ -241,7 +241,15 @@ text-align: center;
 color: #24FEFF;
           
   }
-
+  @media screen and (max-width:768px){
+    h1.ifo{
+    font-size: 18px;
+    -webkit-text-stroke: 0.5px black;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+        }       
+      }
 
 /* more ifo */
 div.more_info{
